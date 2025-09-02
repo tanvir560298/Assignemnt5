@@ -15,4 +15,4 @@ Answer no 1:
 
 4. Event DElegation means without calling each child seprarately we call their common parent and add a lister to that. Then normally we apply the event bubbling.
 
-5. preventDefault() stops something that normally executes. For example if we are clicking on a link it is supposed to take us somewhere but preventDefault() stops this action where as the stopPropagation() stop the child from going to its parent action on other words we can say that it stops event bubbling
+5. preventDefault() stops something that normally executes. For example if we are clicking on a link it is supposed to take us somewhere but preventDefault() stops this action where as the stopPropagation() stop the child from going to its parent action on other words we can say that it stops event bubbling..
