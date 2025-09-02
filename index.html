@@ -25,7 +25,7 @@
       <!-- life -->
       <div class="bg-[#41ff6b1a] rounded-4xl flex items-center justify-center">
         <p class="flex items-center gap-2 font-bold px-7 py-3">
-          <span>0</span>
+          <span id="life">0</span>
           <span class="w-[30px] h-[30px]">
             <img src="./assets/heart.png" alt="">
           </span>
@@ -35,7 +35,7 @@
       <!-- coin -->
       <div class="bg-[#41ff6b1a] rounded-4xl flex items-center justify-center">
         <p class="flex items-center gap-2 font-bold px-7 py-3">
-          <span>100</span>
+          <span id="coin-storage">100</span>
           <span class="w-[30px] h-[30px]">
             <img src="./assets/coin.png" alt="">
           </span>
@@ -43,8 +43,8 @@
       </div>
 
       <!-- button nav -->
-      <button class="btn bg-[#00A63E] text-[#FFFFFF] rounded-3xl px-7 py-3 sm:py-6">
-        2 Copy
+      <button class="btn bg-[#00A63E] text-[#FFFFFF] rounded-3xl px-7 py-3 sm:py-6" >
+        <span id="copy-nav-btn">0</span> Copy
       </button>
 
     </div>
@@ -76,10 +76,10 @@
      <div class="card1 bg-white p-4 space-y-3 shadow">
 
     <div class="flex justify-between items-center">
-        <div class="imgage bg-[#FFE3E2] p-2">
+        <div class="image bg-[#FFE3E2] p-2">
             <img src="./assets/emergency.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn" ></i>
     </div>
 
    
@@ -96,10 +96,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-1">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white" id="call-btn-1">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -115,7 +115,7 @@
         <div class="imgage bg-[#DFEFFF] p-2">
             <img src="./assets/police.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -132,10 +132,10 @@
 
    
     <div class="flex gap-1">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-2">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white" id="call-btn-2">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -151,7 +151,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/fire-service.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -168,10 +168,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] .font">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C]" id="copy-btn-3">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white .font">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white" id="call-btn-3">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -185,7 +185,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/ambulance.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -202,10 +202,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-4">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-4">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -219,7 +219,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/emergency.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -236,10 +236,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-5">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-5">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -255,7 +255,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/emergency.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -272,10 +272,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-6">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-6">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -290,7 +290,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/emergency.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -307,10 +307,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn bg-white w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C]">
+        <button class="btn bg-white w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C]" id="copy-btn-7">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-7">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -325,7 +325,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/emergency.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -342,10 +342,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-8">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-8">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -359,7 +359,7 @@
         <div class="imgage bg-[#FFE3E2] p-2">
             <img src="./assets/fire-service.png" class="h-[20px] w-[20px] ">
         </div>
-        <i class="fa-solid fa-heart mr-4"></i>
+        <i class="fa-solid fa-heart mr-4 heart-btn"></i>
     </div>
 
    
@@ -376,10 +376,10 @@
 
    
     <div class="flex gap-1 ">
-        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white">
+        <button class="btn w-1/2 flex items-center justify-center gap-2  text-[#5C5C5C] bg-white" id="copy-btn-9">
             <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white ">
+        <button class="btn w-1/2 flex items-center justify-center gap-2 bg-[#00A63E] text-white calling-btn" id="call-btn-9">
             <i class="fa-solid fa-phone"></i> Call
         </button>
     </div>
@@ -390,26 +390,31 @@
     <!-- card section end -->
     </section>
 
-   <aside class="w-full sm:w-3/12 shadow p-4 ">
+   <aside class="w-full sm:w-3/12 shadow p-4" >
     <div class="aside-titles flex justify-between items-center">
         <div class="aside-left mb-2">
         <p><i class="fa-solid fa-clock"></i> Call History</p>
-    </div>
-    <div class="aside-right">
-      <button class="btn bg-[#00A63E] text-[#FFFFFF] rounded-3xl px-7 py-3 sm:py-6">
+        </div>
+        <div class="aside-right">
+      <button class="btn bg-[#00A63E] text-[#FFFFFF] rounded-3xl px-7 py-3 sm:py-6" id="clear">
         Clear
       </button>   
+        </div>
     </div>
+
+    <div id="massage-store-div">
+
     </div>
-  </aside>
+
+    </aside>
+    </div>
+
 
    </div>
-
-
-
-
+   
   </main>
   <!-- main section end -->
 
+  <script src="index.js"></script>
 </body>
 </html> 
